@@ -1,4 +1,4 @@
-# bussystem
+# BusSystem
 BusSystem algorighm
 
 # 参考文献
