@@ -142,7 +142,7 @@ def run_simulation(arrival_distribution, run_until):
     schedule = Schedule()
     bus_system = BusSystem(arrival_distribution)
     bus_system.run(schedule)
-    # シミュレーションの数が終わるまで続ける。
+    # シミュレーションの時間が終わるまで続ける。
     while schedule.next_event_time() < run_until:
         schedule.run_next_event()
     return bus_system
